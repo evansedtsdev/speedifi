@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speedifi | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/icon.png">
+</head>
+<body>
+
+  <header>
+    <div class="logo-div">
+      <img class="logo" src="images/logo.png" alt="logo">
+    </div>
+
+    <div id="menu" class="menu">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="plans.html" >Plans</a></li>
+      
+          <li><a href="login.html" class="active">Login</a></li>
+          <li><a href="contact.html" >Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="form-div">
+      <h3 class="loginhead">Login</h3>
+      <form action="#" method="post" class="form">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter Username">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Password">
+
+        <p class="forgotpassword">Forgot Password?</p>
+
+        <button class="login-button">Login</button>
+        <p class="or">or</p>
+        
+      </form>
+      <button class="register-button">Register</button>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="logo">
+      <img src="images/logo.png" alt="logo" class="logofooter">
+    </div>
+    <div class="footer-menu">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="plans.html">Plans</a></li>
+       
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      Copyright  &copy; Group 2 2024. All rights Reserved.
+    </div>
+  </footer>
+  <script>
+    document.querySelector('.register-button').addEventListener('click', () => {
+      
+      window.location.href = 'register.html';
+    })
+  </script>
+</body>
+</html>

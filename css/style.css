@@ -1,0 +1,389 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+}
+
+body {
+  background-color: #f1f1f145;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0; 
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li {
+  margin-right: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+li:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  
+  
+}
+.menu {
+ margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover, .active {
+  color: black;
+}
+header {
+  border-bottom: 4px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-bottom: 2px solid orange;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  border-top: 10px solid rgb(226, 216, 216);
+  margin-right: 20px;
+  scale: 1;
+  
+}
+.container:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.item {
+  
+  background-color: white;
+  
+  width: 300px;
+
+  border-bottom: 2px solid orange;
+}
+
+.head, .price, .feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.feature-div {
+  width: 300px;
+  
+}
+
+.feature-div ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature-div li {
+  margin-top: 4px;
+}
+.feature-div li:hover {
+  text-decoration: none;
+}
+.feature {
+  color: orange;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.signup-button {
+  border: 1px solid orange;
+  padding: 15px 25px;
+  border-radius: 40px;
+  color: orange;
+  background-color: white;
+}
+
+.signup-button:hover {
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.container:hover {
+  cursor: pointer;
+  border-top: 10px solid orange;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.form-div {
+  margin-top: 100px;
+  width: 350px;
+}
+.form-divv {
+  margin-top:60px;
+  width: 350px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+}
+input{
+  border: 1px solid black;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  padding-left: 10px;
+}
+textarea {
+  border: 1px solid black;
+  height: 55px;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.login-button {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: greenyellow;
+}
+.login-button:hover, .register-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.register-button {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 57, 47);
+  color: white;
+  width: 350px;
+}
+
+.forgotpassword {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgb(9, 91, 91);
+  margin-top: 5px;
+}
+.forgotpassword:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.loginhead {
+  border-bottom: 4px solid orange;
+  margin-bottom: 20px;
+}
+
+.contact-main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 600px 400px; 
+}
+
+.contact-image {
+  
+  height: 500px;
+  margin-left: 20px;
+}
+
+.contact-img {
+  width: 600px;
+  height: 500px;
+}
+
+.contact-us {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.about-us {
+  width: 600px;
+  margin-left: 20px;
+}
+.about-img {
+  width: 600px;
+  height: 250px;
+  margin-left: 5px;
+  margin-bottom: 35px;
+}
+
+.member {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 10px;
+  scale: 1;
+}
+.member:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.member-name {
+  font-weight: bold;
+  margin-left: 22px;
+}
+
+.ourteam {
+  display: flex;
+  height: 140px;
+  
+
+}
+
+.more-img {
+  margin-left: 20px;
+}
+
+.more-img ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+}
+
+.home-msg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.speedifi-home {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.sticker {
+  width: 300px;
+  border-radius: 9px;
+  scale: 1;
+}
+
+.sticker:hover, .purchase:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.purchase {
+  width: 470px;
+  height: 390px;
+  border: 1px solid orange;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 8px;
+  padding-top: 25px;
+  scale: 1;
+}
+.purchase h4 {
+  margin-bottom: 10px;
+}
+select {
+  height: 35px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  border-bottom: 4px solid black;
+}
+
+.surfcard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.surfcard input {
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.submit-button {
+  background-color: orange;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 2px solid orange;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logofooter {
+  margin-left: 80px;
+}
+
+.copyright {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
